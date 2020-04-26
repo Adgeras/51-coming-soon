@@ -1,0 +1,61 @@
+.hero{
+    padding-bottom: 30px;
+    background-color: #03A9F5;
+    background-image: url(/img/MainImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+    text-align: center;
+    height: 100vh;
+}
+
+.hero .row{
+    width: 600px;
+    margin: 0 calc(50% - 300px);
+}
+
+
+.hero img{
+    margin-bottom: 40px;
+
+}
+.hero h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 55px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.hero p{
+    font-size: 20px;
+    line-height: 25px;
+    width: 100%;
+    color: #B8B7C9;
+
+}
+.hero .clock{
+    width: 100%;
+    margin: 80px 0;
+
+}
+.hero .form{
+    margin-bottom: 20px;
+    width: 90%;
+
+}
+
+.hero .mouse{
+    width: 30%;
+    margin-bottom:  30px;
+}
+
+@media (max-width: 700px) {
+    .hero .row{
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+}
