@@ -36,10 +36,39 @@
 
 }
 .hero .clock{
+    font-weight: bold;
     width: 100%;
-    margin: 80px 0;
-
+    /* margin: 30px 0; */
+    color: white;
 }
+
+.hero .clock > .time:nth-child(1){
+    /* margin: 0 10px; */
+}
+    .hero .clock > .time{
+        box-sizing: border-box;
+        width: 25%;
+        float: left;
+        
+
+    }
+        .clock > .time > .value{
+            width: 100%;
+            font-size: 80px;
+            line-height: 80px;
+
+        }
+
+        .clock > .time > .label{
+            width: 100%;
+            font-size:20px;
+            line-height: 20px;
+
+        }
+
+
+
+
 .hero .form{
     margin-bottom: 20px;
     width: 90%;
@@ -57,5 +86,16 @@
         margin: 0;
         padding: 0 20px;
     }
-
 }
+/* toliau eina laikrodzio formatavimas prie mazesaniu ekranu*/
+@media (max-width: 550px) {
+    .hero .clock > .time{
+        width: 50%;
+    }
+        .hero .clock > .time:nth-child(1),
+        .hero .clock > .time:nth-child(2){
+            margin: 0 0 30px 0;
+
+        }   
+
+    }
