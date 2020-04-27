@@ -1,0 +1,50 @@
+.progress-bar{
+    width: 100%;
+}
+.progress-bar > .text {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.progress-bar > .text > .title{
+    float: left;
+}
+.progress-bar > .text > .value{
+    float: right;
+}
+.progress-bar > .progress{
+    width: 100%;
+    height: 6px;
+    background-color: #ccc;
+}
+    .progress-bar > .progress > .bar{    
+        width: 86%;
+        height: 100%;
+        background-color: transparent;
+    }
+      
+        .progress-bar > .progress > .bar > .loading {  
+            width: 100%;
+            height: 100%;
+            background-color:  #03A9F5;
+
+            animation-name: loading;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+/* animacijos modelis:
+
+object = .bar
+time = 2s
+change = width: 0 -> 90%;
+*/
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100%{
+        width: 90%
+    }
+}
