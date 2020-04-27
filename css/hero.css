@@ -36,15 +36,13 @@
 
 }
 .hero .clock{
-    font-weight: bold;
+    font-weight: normal;
     width: 100%;
     /* margin: 30px 0; */
     color: white;
 }
 
-.hero .clock > .time:nth-child(1){
-    /* margin: 0 10px; */
-}
+
     .hero .clock > .time{
         box-sizing: border-box;
         width: 25%;
