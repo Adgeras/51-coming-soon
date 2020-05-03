@@ -1,5 +1,5 @@
 .hero{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     background-color: #03A9F5;
     background-image: url(/img/MainImage.png);
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     background-attachment: fixed;
     background-position: bottom center;
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .hero .row{
@@ -38,7 +38,7 @@
 .hero .clock{
     font-weight: normal;
     width: 100%;
-    /* margin: 30px 0; */
+    margin: 30px 0;
     color: white;
 }
 
@@ -72,12 +72,22 @@
     width: 90%;
 
 }
+.hero .form > input{
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+.hero .form > input::placeholder{
+    color: white;
+   
+}
 
 .hero .mouse{
     width: 160px;
     height: 260px;
     background-color: transparent;
-    margin-bottom:  30px;
+    margin-bottom:  0;
     border: 15px solid white;
     border-radius: 80px;
 }
