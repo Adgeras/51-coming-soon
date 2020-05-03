@@ -9,6 +9,7 @@ footer.container{
 footer > .row:nth-child(1) {
     padding: 10px 0;
     border-bottom: 3px solid #fff;
+    position: relative;
 }
     footer .fa{
         color: white;
@@ -57,6 +58,12 @@ footer > .row:nth-child(2) a{
         color: #fff;
         text-decoration: none;
     }       
+    .back-to-top {
+        position: absolute;
+        top: -64px;
+        right: -9px;
+    }
+
 @media (max-width: 800px){
     footer > .row:nth-child(2) {
         width: 500px;
@@ -69,6 +76,11 @@ footer > .row:nth-child(2) a{
     footer .texts > p:nth-child(2){
     border: none;
     }
+    .back-to-top {
+        display: none;
+    }
+
+
 
     footer > .row:nth-child(2) a{
         color: #fff;

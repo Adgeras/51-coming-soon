@@ -1,0 +1,33 @@
+.btn {
+    padding: 10px 30px;
+    line-height: 20px;
+    font-size: 20px;
+    background-color:blue;
+    color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px #3338;
+    cursor: pointer;
+    /* float: ; */
+    margin-top: 20px;
+ }
+.btn:hover {
+    background-color:blue;
+    box-shadow: 0 2px 4px #333c;
+ }
+ .btn.btn-red {
+    background-color: #EA1E63;
+    
+ }
+ .btn.btn-red:hover {
+    background-color: rgb(235, 94, 141);
+    box-shadow: 0 2px 4px rgba(187, 155, 155, 0.533);
+ }
+ .btn.btn-circle {
+    padding: 0;
+    width: 50px;
+    line-height: 50px;
+    font-size: 33px;
+    border-radius: 25px;
+    text-align: center;  
+ }
+

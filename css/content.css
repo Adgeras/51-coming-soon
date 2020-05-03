@@ -30,5 +30,27 @@ h2{
 .right > p > a{
     color: red;
     text-decoration: none;
+}
+.right .btn {
+    float: right;
+}
 
+/* formos Send Message transformavimas: */
+@media (max-width: 1100px) {
+    .form > .half {
+        width: 100%;
+    }
+
+        .form > .half + .half { 
+        margin-left: 0px;
+}
+@media (max-width: 800px) {
+    .left{
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+        margin-top: 50px;
+        
+    }
 }
